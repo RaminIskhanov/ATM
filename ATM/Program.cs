@@ -11,7 +11,7 @@ namespace ATM
         static void Main(string[] args)
         {
 
-            bool backToStart = true;
+            bool backToStart = true; // kod blokunu icra edir. her tekrarlanmadan sonra bool ifadesini yoxlayir. While false olanda dongu sonlanir
 
             User[] users = new User[5]; 
             users[0] = new User("Ramin","Isxanov") { PAN = "123456", PIN = "1111", CVC = "345", ExpireDate = "12/21", Balance = 9 };
