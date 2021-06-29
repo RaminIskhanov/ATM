@@ -57,7 +57,8 @@ namespace ATM
                                         if (users[i].Balance >= 10)
                                         {
                                             users[i].Balance = users[i].Balance - 10;
-                                            Console.WriteLine(users[i].Balance);
+                                            Console.WriteLine($"Sizin cari balansiniz: { users[i].Balance} Azn");
+                                            break;
                                         }
                                         Console.WriteLine("Balansinizda kifayet qeder vesait yoxdur");
                                         break;
@@ -65,7 +66,8 @@ namespace ATM
                                         if (users[i].Balance >= 20)
                                         {
                                             users[i].Balance = users[i].Balance - 20;
-                                            Console.WriteLine(users[i].Balance);
+                                            Console.WriteLine($"Sizin cari balansiniz: { users[i].Balance} Azn");
+                                            break;
                                         }
                                         Console.WriteLine("Balansinizda kifayet qeder vesait yoxdur");
                                         break;
@@ -73,7 +75,8 @@ namespace ATM
                                         if (users[i].Balance >= 50)
                                         {
                                             users[i].Balance = users[i].Balance - 50;
-                                            Console.WriteLine(users[i].Balance);
+                                            Console.WriteLine($"Sizin cari balansiniz: { users[i].Balance} Azn");
+                                            break;
                                         }
                                         Console.WriteLine("Balansinizda kifayet qeder vesait yoxdur");
                                         break;
@@ -81,7 +84,8 @@ namespace ATM
                                         if (users[i].Balance >= 100)
                                         {
                                             users[i].Balance = users[i].Balance - 100;
-                                            Console.WriteLine(users[i].Balance);
+                                            Console.WriteLine($"Sizin cari balansiniz: { users[i].Balance} Azn");
+                                            break;
                                         }
                                         Console.WriteLine("Var Zengilannan bidene canavar");
                                         break;
@@ -91,7 +95,8 @@ namespace ATM
                                         if (users[i].Balance >= freeChoise) // Balansin istediyimiz meblegden boyuk olub olmamasini yoxlayiriq!
                                         {
                                             users[i].Balance = users[i].Balance - freeChoise;
-                                            Console.WriteLine(users[i].Balance);
+                                            Console.WriteLine($"Sizin cari balansiniz: { users[i].Balance} Azn");
+                                            break;
                                         }
                                         else
                                         {
